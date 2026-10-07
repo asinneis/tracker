@@ -1,0 +1,19 @@
+# === Секреты — НИКОГДА не коммитим ===
+# Реальные пароли и API-ключи. В гит идёт только config.example.php
+config.php
+
+# === PhpStorm ===
+.idea/
+
+# === Рабочие папки (содержимое не коммитим, но сами папки сохраняем) ===
+/logs/*
+!/logs/.gitkeep
+/exports/*
+!/exports/.gitkeep
+/backups/*
+!/backups/.gitkeep
+
+# === Прочий мусор ===
+*.log
+Thumbs.db
+.DS_Store
